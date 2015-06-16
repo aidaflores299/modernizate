@@ -1,0 +1,650 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Helvetica;
+    font-size: 100%;
+}
+
+.centrar {
+    max-width: 1280px;
+    margin: 0 auto;
+    clear: both;
+    overflow: hidden;
+}
+
+.slicknav_menu {
+    display: none;
+}
+
+header {
+    background-color: rgb(35, 87, 214);
+    overflow: hidden;
+    /*width: 100%;
+    display: block;
+    position: fixed;
+    z-index: 1000;*/
+}
+
+#logo img {
+    float: left;
+    height: 50px;
+}
+
+#social-media {
+    clear: both;
+}
+
+#social-media img {
+    float: left;
+    padding: 10px;
+}
+
+#menu {
+    float: right;
+    overflow: hidden;
+}
+
+#menu li {
+    float: left;
+    line-height: 60px;
+    list-style: none;
+}
+
+#logo {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    overflow: hidden;
+    float: left;
+}
+
+nav {
+    float: right;
+}
+
+#menu a {
+    display: block;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+}
+
+#menu a:hover {
+    background-color: black;
+    text-decoration: underline;
+}
+
+.sp-slides a {
+    display: block;
+    background-color: rgb(35, 87, 214);
+    padding: 10px;
+    color: white;
+}
+
+#slider h3 {
+    font-size: 2em;
+}
+
+section h1 {
+    font-size: 2em;
+    text-align: center;
+    border-bottom: 2px solid rgb(35, 87, 214);
+    color: rgb(35, 87, 214);
+}
+
+section {
+    clear: both;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.productos {
+    float: left;
+    width: 33.333333333333333333%;
+    display: block;
+    margin-top: 10px;
+    border: 1px solid #bfbfbf;
+}
+
+#ceo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    width: 100px;
+    height: 150px;
+    box-shadow: 0px 0px 0px 7px #fff, 0px 0px 5px 7px gray;
+    margin-bottom: 50px;
+}
+
+#copyright a {
+    color: white;
+}
+
+#ceo p {
+    line-height: 25px;
+    text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+#ceo h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#productos {
+    margin-top: 50px;
+}
+
+#alianzas {
+    margin-top: 50px;
+}
+
+#industrias {
+    margin-top: 50px;
+    margin-bottom: 75px;
+}
+
+#ceo {
+    margin-top: 20px;
+    margin-bottom: 75px;
+}
+
+
+.productos:nth-child(3) {
+    width: 30.333333333333333333%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+.productos img {
+    width: 100%;
+}
+
+.productos span {
+    height: 150px;
+    overflow: hidden;
+    display: block;
+    min-height: 150px;
+    max-height: 150px;
+}
+
+.productos h2 {
+    font-size: 1.4em;
+}
+
+.productos a {
+    float: right;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(35, 87, 214);
+    padding: 10px;
+}
+
+.productos a:hover {
+    background-color: black;
+}
+
+.productos p {
+    font-size: 0.8em;
+}
+
+.productos h2,
+.productos p {
+    margin: 5px;
+}
+
+.marcas {
+    width: 20%;
+    float: left;
+}
+
+.marcas img {
+    width: 100%;
+}
+
+#industria-resumen {
+    font-size: 0.8em;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#respuesta {
+    margin-top: 75px;
+    margin-bottom: 75px;
+}
+
+#respuesta #icon {
+    width: 50px;
+}
+
+#respuesta h1 {
+    color: #298332;
+    border-bottom: 0px;
+}
+
+#industrias .listas {
+    width: 50%;
+    float: left;
+}
+
+#industrias ul {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 0.8em;
+    font-weight: bold;
+}
+
+#industrias p {
+    line-height: 25px;
+}
+
+#industrias .listas {
+    line-height: 25px;
+}
+
+footer {
+    background-color: #282828;
+    color: white;
+    overflow: hidden;
+}
+
+footer #info,
+footer #menu-rep {
+    font-size: 0.8em;
+    float: left;
+    width: 50%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#menu-rep ul li {
+    float: left;
+    list-style: none;
+}
+
+#menu-rep ul li a {
+    color: white;
+    display: block;
+    font-weight: bold;
+    padding: 20px;
+}
+
+footer #info p {
+    padding: 10px;
+}
+
+#copyright {
+    line-height: 50px;
+    font-size: 0.7em;
+}
+
+#copyright p {
+    text-align: center;
+}
+
+#copyright img {
+    display: block;
+    margin: 0 auto;
+    width: 75px;
+}
+/*ESTILOS PARA PAGE CONTACTO*/
+
+#cont-contacto h1 {
+    padding-top: 20px;
+}
+
+#contacto {
+    margin-top: 30px;
+}
+
+#contacto img {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: block;
+}
+
+#cont-contacto {
+    padding-top: 50px;
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 100px;
+    overflow: hidden;
+}
+
+#cont-contacto input,
+#cont-contacto textarea {
+    width: 100%;
+    padding: 10px;
+}
+
+#cont-contacto input {
+    margin-bottom: 20px;
+}
+
+#cont-contacto input[type="submit"] {
+    margin-top: 20px;
+    border: 0px;
+    padding: 20px;
+    background-color: rgb(35, 87, 214);
+    color: white;
+}
+/*ESTILOS PARA PAGE UBICACION*/
+
+#mapa {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#ubicacion p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+#ubicacion h1 {
+    margin-top: 20px;
+}
+
+/*ESTILOS PARA PAGE NOSOTROS*/
+
+#nosotros {
+    margin-bottom: 100px;
+}
+
+#nosotros h1 {
+    margin-top: 20px;
+}
+
+#nosotros p {
+    line-height: 1.7em;
+    text-align: justify;
+}
+
+#nosotros h2 {
+    color: rgb(35, 87, 214);
+    margin-top: 20px;
+    text-align: center;
+    font-size: 1.4em;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(35, 87, 214);
+}
+
+#mision, #vision, #valores {
+    width: 50%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+#mision h2, #vision h2, #valores h2 {
+   border-bottom: 1px solid  rgb(35, 87, 214);
+}
+
+#vision {
+    clear: both;
+    float: right;
+}
+
+#valores {
+    float: left;
+    clear: both;
+}
+
+#nosotros img {
+    margin: 0 auto;
+    display: block;
+    width: 40%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*ESTILOS PARA PAGE SERVICIOS*/
+
+.servicios {
+    width: 23%;
+    margin-left: 1%;
+    margin-right: 1%;
+    float: left;
+    overflow: hidden;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    outline: 1px solid #b8b6b6;
+    display: block;
+}
+
+.servicios img {
+    width: 100%;
+}
+
+.servicios h2 {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.servicios p {
+    text-align: justify;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin: 10px;
+}
+
+#servicios {
+    margin-top: 20px;
+    margin-bottom: 50px;
+    overflow: hidden;
+}
+
+/*ESTILOS PARA PAGE TRABAJOS*/
+#trabajos {
+    margin-top: 20px;
+    margin-bottom: 50px;
+}
+
+#trabajos h1 {
+    margin-bottom: 20px;
+}
+
+.trabajos img {
+    float: left;
+    width: 200px;
+    margin-right: 10px;
+}
+
+.trabajos h2 {
+    font-size: 1.3em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.trabajos {
+    clear: both;
+    overflow: hidden;
+    display: block;
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.trabajos a {
+    display: block;
+    background-color: rgb(35, 87, 214);
+    float: left;
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.trabajos a:hover {
+     background-color: black;
+}
+
+.trabajos {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+.trabajos p {
+    line-height: 25px;
+    text-align: justify;
+    font-size: 0.8em;
+}
+
+/*ESTILOS PARA PAGE CURRICULUM*/
+
+#contacto input[type="file"] {
+    outline: 1px solid #b7b7b7;
+    width: 98%;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+
+
+/*MEDIA QUERIES*/
+
+@media (max-width: 768px) {
+    section {
+        width: 100%;
+    }
+    
+    #mapa {
+        height: 200px;
+    }
+    #cont-contacto {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    #contacto img {
+        width: 100%;
+    }
+    
+    .trabajos {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+    
+    .trabajos .right {
+        clear: both;
+    }
+    
+    .trabajos img {
+        display: block;
+        margin: 0 auto;
+        float: none;
+        width: 150px;
+    }
+    .productos {
+        display: block;
+        width: 48%;
+        border: 0;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 1%;
+        margin-right: 1%;
+        outline: 1px solid #afafaf;
+    }
+    .productos:nth-child(3) {
+        width: 48%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-top: 10px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    nav {
+        width: 100%;
+    }
+    section h1 {
+        font-size: 1.2em;
+    }
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+        position: relative;
+    }
+    
+    #mision, #vision, #valores {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    #mision h2, #vision h2, #valores h2 {
+        font-size: 0.9em;
+    }
+    
+    #nosotros img {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    
+    .servicios {
+        width: 48%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+}
+
+@media (max-width: 480px) {
+    .productos {
+        width: 98%;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    .productos:nth-child(3) {
+        width: 98%;
+        margin-top: 10px;
+        margin-left: 1%;
+        margin-right: 1%;
+    }
+    footer #info,
+    footer #menu-rep {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    footer #menu-rep {
+        border-top: 1px solid gray;
+    }
+    footer #copyright {
+        border-top: 1px solid gray;
+    }
+    #menu {
+        display: none;
+    }
+    .slicknav_menu {
+        display: block;
+        position: relative;
+    }
+    nav {
+        width: 100%;
+    }
+    section h1 {
+        font-size: 1.2em;
+    }
+    
+    .servicios {
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
